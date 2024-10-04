@@ -1,0 +1,42 @@
+name: IntuitCraftInterview
+targets:
+  SwiftUIDemo:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: 
+      - ./SwiftUI
+      - ./Resources/SwiftUI
+      - ./Resources/LaunchScreen.xib
+    settings:
+      CODE_SIGN_STYLE: Automatic
+      PRODUCT_BUNDLE_IDENTIFIER: com.intuit.CgDesignSystemsIos-Example
+    info:
+      path: ./Resources/SwiftUI/Info.plist
+      properties:
+        CFBundleVersion: 0.0.1
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        UILaunchStoryboardName: LaunchScreen
+  UIKitDemo:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources: 
+      - ./UIKit
+      - ./Resources/UIKit
+      - ./Resources/LaunchScreen.xib
+    settings:
+      CODE_SIGN_STYLE: Automatic
+      PRODUCT_BUNDLE_IDENTIFIER: com.intuit.CgDesignSystemsIos-Example
+    info:
+      path: ./Resources/UIKit/Info.plist
+      properties:
+        CFBundleVersion: 0.0.1
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        UILaunchStoryboardName: LaunchScreen
+        UIApplicationSceneManifest:
+          UISceneConfigurations:
+            UIWindowSceneSessionRoleApplication:
+              - UISceneConfigurationName: Default Configuration
+                UISceneDelegateClassName: $(PRODUCT_MODULE_NAME).SceneDelegate
+                UISceneStoryboardFile: Main
