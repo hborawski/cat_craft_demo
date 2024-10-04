@@ -15,7 +15,7 @@ The app is currently a skeleton project with a single text view that displays "H
 
 1. Using the catapi (https://api.thecatapi.com/) create a new screen that displays a list of cat breeds. The list should be scrollable, and should contain no more than 10 items at a time. Each cat breed
 should be displayed as a card with the cat breed name and description along with an image.  Example layout:
-<img width="344" alt="Screenshot 2024-08-07 at 11 45 36 AM" src="https://github.intuit.com/storage/user/44342/files/213c0fd3-4342-4816-a26e-373080c5c024">
+<img width="344" alt="Screenshot 2024-08-07 at 11 45 36 AM" src="https://github.com/user-attachments/assets/781c2b0a-2f92-4a9d-b5e1-7af757b1cddd">
 
 
 3. The /breeds endpoint should be used to fetch the list of cat breeds and the parameters `limit` and `page` should be used to paginate the results.
@@ -76,7 +76,7 @@ Example Response:
    `https://cdn2.thecatapi.com/images/{reference_image_id}.jpg`
 5. Once the above is complete, we would like to add one more bit of functionality. When a user clicks on a breed's card they should be taken to a new screen that displays more images of the particular breed in a vertically stacked layout.
 Example layout:
-<img width="361" alt="Screenshot 2024-08-07 at 11 46 57 AM" src="https://github.intuit.com/storage/user/44342/files/2937926e-047a-4b30-aea5-c0c934bcef6c">
+<img width="361" alt="Screenshot 2024-08-07 at 11 46 57 AM" src="https://github.com/user-attachments/assets/3fce4a6e-81a5-4086-b459-358939bd4ecc">
 
 
 7. Use the search api (GET https://api.thecatapi.com/v1/images/search) to fetch the images for the selected breed. The `breeds_id` parameter should be used to fetch the images for the selected breed.
