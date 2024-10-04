@@ -61,6 +61,3 @@ xcuserdata/
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,swiftpackagemanager,xcode
 
-# Generated Info.plist from project.yml / xcodegen
-Resources/SwiftUI/Info.plist
-Resources/UIKit/Info.plist
